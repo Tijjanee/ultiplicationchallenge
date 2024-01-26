@@ -1,0 +1,107 @@
+@font-face {
+    font-family: PTSerifItalic;
+    src: url('../public/Fonts/PTSerifItalic.ttf');
+}
+@font-face {
+    font-family: DMSerifItalic;
+    src: url('../public/Fonts/DMSerifItalic.ttf');
+}
+@font-face {
+    font-family: PTSerifRegular;
+    src: url('../public/Fonts/PTSerifReguler.ttf');
+}
+@font-face {
+    font-family: DMSerifRegular;
+    src: url('../public/Fonts/DMSerifRegular.ttf');
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(185, 185, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    row-gap: 10px;
+
+}
+
+.score{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-family: PTSerifRegular;
+    font-weight: 600;
+}
+
+.calculate{
+    text-align: center;
+    font-size: 14px;
+    font-family: DMSerifRegular;
+}
+
+.calculate span{
+    color: rgb(2, 73, 2);
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.input-container input{
+    width: 90%;
+    padding: 10px 0px;
+    border-radius: 7px;
+    border: 3px solid darkgreen;
+    outline: none;
+    text-indent: 10px;
+    font-size: 25px;
+    font-family: DMSerifItalic;
+    font-weight: 600;
+    color: rgb(0, 44, 0);
+    letter-spacing: 5px;
+}
+
+.btn-container{
+    width: 100%;
+    text-align: center;
+}
+
+.btn{
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 0px;
+    background-color: darkgreen;
+    font-size: 12px;
+    font-family: DMSerifRegular;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+    letter-spacing: 2px;
+    color: #f8f8f8;
+}
+
+.btn:hover{
+    background-color: rgb(63, 95, 0);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
